@@ -24,6 +24,7 @@ return array(
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Studio\\' => array($vendorDir . '/franzl/studio/src'),
     'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src'),
+    'StanleySong\\Auth\\Wechat\\' => array($vendorDir . '/yudianguo-stanleysong/flarum-ext-auth-wechat/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),

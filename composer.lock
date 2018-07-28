@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa8ac1bb77bf63b2ec47cb6eb7d6acc2",
+    "content-hash": "d2093e7792e10884807cf6cc00bdf7b0",
     "packages": [
         {
             "name": "components/font-awesome",
@@ -1747,6 +1747,57 @@
                 "url"
             ],
             "time": "2017-03-20T17:10:46+00:00"
+        },
+        {
+            "name": "henter/wechat-oauth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/henter/WeChat-OAuth.git",
+                "reference": "0e5f72672446da3b0e18ed00367d6ab546f608a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/henter/WeChat-OAuth/zipball/0e5f72672446da3b0e18ed00367d6ab546f608a9",
+                "reference": "0e5f72672446da3b0e18ed00367d6ab546f608a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Henter\\WeChat": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Henter",
+                    "email": "henter@henter.me"
+                }
+            ],
+            "description": "WeChat OAuth SDK",
+            "keywords": [
+                "login",
+                "oauth",
+                "wechat",
+                "wechat-oauth",
+                "wechatlogin",
+                "wechatoauth",
+                "weixin",
+                "weixin-oauth",
+                "weixinlogin",
+                "weixinoauth"
+            ],
+            "time": "2015-12-28 08:35:57"
         },
         {
             "name": "http-interop/http-middleware",
@@ -4205,6 +4256,56 @@
             "time": "2016-03-31T09:25:28+00:00"
         },
         {
+            "name": "yudianguo-stanleysong/flarum-ext-auth-wechat",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yudianguo/flarum-ext-auth-wechat.git",
+                "reference": "c5fe9c6a0f4048ac1d5515f9a3951a39e322334b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yudianguo/flarum-ext-auth-wechat/zipball/c5fe9c6a0f4048ac1d5515f9a3951a39e322334b",
+                "reference": "c5fe9c6a0f4048ac1d5515f9a3951a39e322334b",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.6",
+                "henter/wechat-oauth": "dev-master"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Wechat Login",
+                    "icon": {
+                        "name": "wechat",
+                        "backgroundColor": "#22aa00",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "StanleySong\\Auth\\Wechat\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stanley Song",
+                    "email": "sxhuan@gmail.com"
+                }
+            ],
+            "description": "Allow users to log in with Wechat.",
+            "keywords": [
+                "Authentication"
+            ],
+            "time": "2017-06-18T02:01:35+00:00"
+        },
+        {
             "name": "zendframework/zend-diactoros",
             "version": "1.8.1",
             "source": {
@@ -4522,7 +4623,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "stability-flags": {
         "jsthon/flarum-ext-simplified-chinese": 10
     },

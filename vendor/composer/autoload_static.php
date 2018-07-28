@@ -61,6 +61,7 @@ class ComposerStaticInit762961da4247860c4f8d8dd909e2cb71
             'Symfony\\Component\\Console\\' => 26,
             'Studio\\' => 7,
             'Stringy\\' => 8,
+            'StanleySong\\Auth\\Wechat\\' => 24,
         ),
         'P' => 
         array (
@@ -208,6 +209,10 @@ class ComposerStaticInit762961da4247860c4f8d8dd909e2cb71
         'Stringy\\' => 
         array (
             0 => __DIR__ . '/..' . '/danielstjules/stringy/src',
+        ),
+        'StanleySong\\Auth\\Wechat\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yudianguo-stanleysong/flarum-ext-auth-wechat/src',
         ),
         'Psr\\Log\\' => 
         array (
@@ -441,6 +446,13 @@ class ComposerStaticInit762961da4247860c4f8d8dd909e2cb71
             'Less' => 
             array (
                 0 => __DIR__ . '/..' . '/oyejorge/less.php/lib',
+            ),
+        ),
+        'H' => 
+        array (
+            'Henter\\WeChat' => 
+            array (
+                0 => __DIR__ . '/..' . '/henter/wechat-oauth/lib',
             ),
         ),
         'D' => 

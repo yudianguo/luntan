@@ -40,7 +40,8 @@
         "flarum/flarum-ext-subscriptions": "^0.1.0",
         "flarum/flarum-ext-suspend": "^0.1.0",
         "flarum/flarum-ext-tags": "^0.1.0",
-        "jsthon/flarum-ext-simplified-chinese": "^0.1.0@beta"
+        "jsthon/flarum-ext-simplified-chinese": "^0.1.0@beta",
+        "yudianguo-stanleysong/flarum-ext-auth-wechat": "^1.0"
     },
     "require-dev": {
         "franzl/studio": "^0.11.0"
@@ -48,6 +49,6 @@
     "config": {
         "preferred-install": "dist"
     },
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
